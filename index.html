@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap">
 
-<body>
-    <h1>
-        ToDo List
-    </h1>
+<body class="body">
+    <div>
+        <h1 class="title">
+            ToDo List
+        </h1>
+    </div>
+
+    <div class="bubble-border">
+        <h2>
+            Add a new task
+        </h2>
+        <input id="task-title" type="text">
+        <label>Task Title</label>
+        <input id="task-description" type="text">
+        <label>Task Description</label>
+        <button class="button" onclick="addTask()">
+            Add
+        </button>
+    </div>
+    <div id="task-list">
+        
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+.body {
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.title {
+    
+}
+
+.button {
+
+}
+
+.bubble-border {
+    border-top: 2px solid black;
+    margin-top: 10px;
+    padding-bottom: 10px
+}
